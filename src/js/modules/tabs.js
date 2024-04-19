@@ -20,10 +20,10 @@ class Tabs {
     const defaultOptions = {
       tabsName: selector,
       defaultTab: 0,
-      onChanged: () => {},
-      onLoaded: () => {},
-      onTabHover: () => {},
-      onResize: () => {},
+      onChanged: () => { },
+      onLoaded: () => { },
+      onTabHover: () => { },
+      onResize: () => { },
     };
 
     this.options = Object.assign(defaultOptions, options);

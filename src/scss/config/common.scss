@@ -1,24 +1,40 @@
 // Заголовки, общие БЄМ блоки и проче...
 .text-primary {
-    font-weight: 700;
-    line-height: 1.25em;
+  font-weight: 700;
+  line-height: 1.25em;
 }
 p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    /* or 114% */
-
-    color: var(--primary-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--primary-color);
+}
+.text-secondary {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: var(--black-color);
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-center {
+  text-align: center;
 }
 h2,
 .h2 {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.25em;
-    /* or 125% */
-    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.25em;
+  /* or 125% */
+  text-transform: uppercase;
 
-    /* Style2_Color2 */
-    color: var(--green-color);
+  /* Style2_Color2 */
+  color: var(--green-color);
+}
+
+//
+.w-full {
+  width: 100% !important;
 }
