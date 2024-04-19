@@ -2,6 +2,7 @@
   width: 100%;
   transition: background-color var(--bs-transition);
   z-index: 50;
+  padding: 52px 0;
   &__container {
     display: flex;
     justify-content: space-between;
@@ -12,25 +13,35 @@
     align-items: center;
   }
   &__contact {
-    margin-right: 57px;
+    margin-right: 86px;
   }
 
-  .header-is-sticky & {
-    // ..стили для липкого хедера
-    position: fixed;
-    background-color: #007aff;
+  // .header-is-sticky & {
+  //   // ..стили для липкого хедера
+  //   position: fixed;
+  //   background-color: #007aff;
+  // }
+
+  &__btn {
+    width: 280px;
+    border-radius: 15px;
+    padding: 34px 59px 42px;
+    box-shadow: none;
+    margin-left: 150px;
+    font-size: 14px;
+    text-align: left;
   }
 
   // .header__container
-  &__container {
-    // height: rem($headerHeight);
-    display: flex;
-    align-items: center;
+  // &__container {
+  //   // height: rem($headerHeight);
+  //   display: flex;
+  //   align-items: center;
 
-    .header-is-sticky & {
-      height: rem($headerHeight - 50);
-    }
-  }
+  //   .header-is-sticky & {
+  //     height: rem($headerHeight - 50);
+  //   }
+  // }
 }
 
 // Burger

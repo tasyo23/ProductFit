@@ -74,6 +74,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "gulp-cli": "^3.0.0",
     "swiper": "^8.4.5"
   }
 }

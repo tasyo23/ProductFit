@@ -1,8 +1,11 @@
 .contact-phone {
-    display: flex;
-    color: var(--green-color);
-    font-weight: bold;
-    &__text {
-        margin-left: 16px;
-    }
+  display: flex;
+  align-items: center;
+  color: var(--green-color);
+  font-weight: bold;
+  &__text {
+    margin-left: 24px;
+    display: inline-block;
+    margin-bottom: 14px;
+  }
 }

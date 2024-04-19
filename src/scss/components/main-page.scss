@@ -1,0 +1,25 @@
+.banner {
+  &__container {
+    background: url(../../images/banner-bg.png) no-repeat top 30px right 93px;
+    padding: 201px 25px 276px;
+  }
+  &__content {
+    max-width: 347px;
+  }
+  &__header {
+    margin-bottom: 65px;
+  }
+  &__text {
+    margin-bottom: 100px;
+  }
+}
+
+.brands {
+  background-color: var(--green-color);
+  padding: 26px 0;
+  @include flex-center-center;
+
+  img {
+    margin: 0 45px;
+  }
+}
