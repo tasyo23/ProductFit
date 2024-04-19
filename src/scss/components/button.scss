@@ -1,0 +1,13 @@
+.btn {
+    border-radius: 20px;
+    padding: 36px 37px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.btn-primary {
+    background: var(--secondary-color);
+    box-shadow: 0px 5px 10px rgba(30, 149, 155, 0.5);
+    color: var(--white-color);
+}

@@ -1,0 +1,24 @@
+// Заголовки, общие БЄМ блоки и проче...
+.text-primary {
+    font-weight: 700;
+    line-height: 1.25em;
+}
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    color: var(--primary-color);
+}
+h2,
+.h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.25em;
+    /* or 125% */
+    text-transform: uppercase;
+
+    /* Style2_Color2 */
+    color: var(--green-color);
+}
