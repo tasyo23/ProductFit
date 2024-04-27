@@ -11,8 +11,17 @@
 */
 [class*='__container'] {
   max-width: rem($maxWidthContainer);
+  @media screen and (max-width: 1700px) {
+    max-width: rem($containerwidthDesc);
+  }
   margin: 0 auto;
   padding: 0 rem($mainOffset);
+}
+
+[class*='__container-fluid'] {
+  max-width: 100%;
+  width: rem(2160);
+  padding: 0 rem(160);
 }
 
 // Стили отзывчивых картинок (IBG) ============================================

@@ -3,17 +3,38 @@
   transition: background-color var(--bs-transition);
   z-index: 50;
   padding: 52px 0;
+  @media screen and (max-width: 1700px) {
+    padding: 32px 0;
+  }
+  &__logo {
+    max-width: 21.5%;
+    min-width: 318px;
+    @media screen and (max-width: 1700px) {
+      margin-left: 8px;
+    }
+  }
   &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media screen and (max-width: 1700px) {
+      padding: 0 rem(80);
+    }
   }
   &__right {
     display: flex;
     align-items: center;
+    @media screen and (max-width: 1700px) {
+      justify-content: flex-end;
+    }
   }
   &__contact {
     margin-right: 86px;
+    max-width: 4.2%;
+    min-width: rem(46.29);
+    @media screen and (max-width: 1700px) {
+      margin-right: 54px;
+    }
   }
 
   // .header-is-sticky & {
@@ -30,72 +51,34 @@
     margin-left: 150px;
     font-size: 14px;
     text-align: left;
+    @media screen and (max-width: 1700px) {
+      padding: 23px;
+      width: 185px;
+      margin-left: 59px;
+    }
   }
 
-  // .header__container
-  // &__container {
-  //   // height: rem($headerHeight);
-  //   display: flex;
-  //   align-items: center;
-
-  //   .header-is-sticky & {
-  //     height: rem($headerHeight - 50);
-  //   }
-  // }
-}
-
-// Burger
-/*
-.icon-menu {
-  display: none;
-
-  @include media-mx(768) {
-    display: block;
-    position: relative;
-    width: rem(30);
-    height: rem(18);
-    cursor: pointer;
-    z-index: 5;
-
-    span,
-    &::before,
-    &::after {
-      content: "";
-      transition: all 300ms ease 0ms;
-      right: 0;
-      position: absolute;
-      width: 100%;
-      height: rem(2);
-      background-color: #000;
+  @media screen and (max-width: 1000px) {
+    padding: 45px 0 18px;
+    &__container {
+      padding: 0 1rem;
     }
-
-    &::before {
-      top: 0;
+    &__right {
+      flex-grow: 1;
+      justify-content: space-between;
+      margin-left: 25px;
     }
-
-    &::after {
-      bottom: 0;
+    &__btn,
+    &__contact {
+      margin: 0;
     }
-
-    span {
-      top: calc(50% - rem(1));
+  }
+  @media screen and (max-width: 890px) {
+    &__right {
+      display: none;
     }
-
-    .menu-open & {
-      span {
-        width: 0;
-      }
-
-      &::before {
-        top: calc(50% - rem(1));
-        transform: rotate(-45deg);
-      }
-
-      &::after {
-        bottom: calc(50% - rem(1));
-        transform: rotate(45deg);
-      }
+    &__container {
+      justify-content: center;
     }
   }
 }
-*/

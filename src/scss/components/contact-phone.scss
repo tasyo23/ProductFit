@@ -3,9 +3,19 @@
   align-items: center;
   color: var(--green-color);
   font-weight: bold;
+
   &__text {
     margin-left: 24px;
     display: inline-block;
     margin-bottom: 14px;
+  }
+  @media screen and (max-width: 1700px) {
+    & svg {
+      height: 32px;
+    }
+    &__text {
+      margin-left: 11px;
+      margin-bottom: 5px;
+    }
   }
 }

@@ -12,7 +12,7 @@ const filePaths = {
     static: `${buildFolder}/static/`,
   },
   src: {
-    js: `${srcFolder}/js/*.js`,
+    js: [`${srcFolder}/js/*.js`],
     images: `${srcFolder}/images/**/*.{jpg,jpeg,png,gif,webp}`,
     svg: `${srcFolder}/images/**/*.svg`,
     scss: [`${srcFolder}/scss/main.scss`, `${srcFolder}/scss/pages/*.scss`],

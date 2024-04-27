@@ -22,6 +22,12 @@ p {
 .text-center {
   text-align: center;
 }
+.text-subtitle {
+  color: var(--red-color);
+  line-height: 2.5em;
+  font-weight: 700;
+  font-size: 16px;
+}
 h2,
 .h2 {
   font-weight: 700;
@@ -34,7 +40,40 @@ h2,
   color: var(--green-color);
 }
 
+.h3,
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: rem(30);
+  text-transform: uppercase;
+
+  /* Style2_Color2 */
+  color: var(--green-color);
+}
+img {
+  max-width: 100%;
+}
+svg {
+  max-width: 100%;
+}
 //
 .w-full {
   width: 100% !important;
+}
+
+.glide {
+  &__arrow {
+    background: transparent;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+}
+
+.slick-next::before,
+.slick-prev::before {
+  content: none;
+}
+
+.slick-disabled {
+  opacity: 0.15;
 }

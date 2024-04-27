@@ -25,6 +25,9 @@
 // @import 'libs/aos';
 // @import 'libs/swiper';
 
+@import '../../node_modules/slick-slider/slick/slick.scss';
+@import '../../node_modules/slick-slider/slick/slick-theme.scss';
+
 /**
 * Подключение custom scrollbar для всего сайта
 */
@@ -44,6 +47,13 @@
 /**
 * Подключение стилей отдельных блоков и секций
 */
+
+// Required Core Stylesheet
+@import '../../node_modules/@glidejs/glide/src/assets/sass/glide.core';
+
+// Optional Theme Stylesheet
+@import '../../node_modules/@glidejs/glide/src/assets/sass/glide.theme';
+
 @import 'components/header';
 @import 'components/contact-phone.scss';
 

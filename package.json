@@ -73,8 +73,11 @@
     "webpack-stream": "^7.0.0"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.6.0",
     "aos": "^2.3.4",
     "gulp-cli": "^3.0.0",
+    "jquery": "^3.7.1",
+    "slick-slider": "^1.8.2",
     "swiper": "^8.4.5"
   }
 }
